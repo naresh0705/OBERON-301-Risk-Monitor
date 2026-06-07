@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBERON-301 Risk-Based Data Quality Monitor</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f2f5;color:#333}
+        .header{background:linear-gradient(135deg,#1a365d 0%,#2b6cb0 100%);color:#fff;padding:20px 40px;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+        .header h1{font-size:22px;font-weight:600}
+        .header p{font-size:13px;opacity:.8;margin-top:4px}
+        .container{max-width:1200px;margin:0 auto;padding:24px}
+        .upload-section{background:#fff;border-radius:10px;padding:32px;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:24px}
+        .upload-section h2{color:#1a365d;margin-bottom:16px;font-size:18px}
+        .file-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:20px}
+        .file-input-group{display:flex;flex-direction:column}
+        .file-input-group label{font-size:11px;font-weight:600;color:#555;margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+        .file-input-group input[type="file"]{font-size:12px;padding:8px;border:1px dashed #ccc;border-radius:6px;background:#fafafa}
+        .file-input-group input[type="file"]:hover{border-color:#2b6cb0;background:#f0f7ff}
+        .file-input-group.new-dataset label{color:#2b6cb0}
+        .file-input-group.new-dataset input[type="file"]{border-color:#bee3f8;background:#ebf8ff}
+        .btn{padding:12px 32px;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;transition:all .2s}
+        .btn-primary{background:#2b6cb0;color:#fff}
+        .btn-primary:hover{background:#1a4e8a}
+        .btn-primary:disabled{background:#a0aec0;cursor:not-allowed}
+        .btn-export{background:#38a169;color:#fff;margin-left:12px}
+        .btn-export:hover{background:#2f855a}
+        .loading{display:none;align-items:center;gap:12px;margin-top:16px}
+        .loading.active{display:flex}
+        .spinner{width:24px;height:24px;border:3px solid #e2e8f0;border-top:3px solid #2b6cb0;border-radius:50%;animation:spin .8s linear infinite}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        .results-section{display:none}
+        .results-section.active{display:block}
+        .summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:24px}
+        .summary-card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,.08);text-align:center}
+        .summary-card .number{font-size:28px;font-weight:700}
+        .summary-card .label{font-size:11px;color:#666;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
+        .critical{color:#e53e3e}.high{color:#dd6b20}.medium{color:#d69e2e}.low{color:#38a169}
+        .table-section{background:#fff;border-radius:10px;padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:24px}
+        .table-section h3{color:#1a365d;margin-bottom:16px;font-size:16px}
+        .stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:24px}
+        .stat-box{background:#f7fafc;border-radius:8px;padding:16px;border-left:4px solid #2b6cb0}
+        .stat-box h4{font-size:13px;color:#1a365d;margin-bottom:8px}
+        .stat-box .stat-line{font-size:13px;color:#555;margin:4px 0}
+        .stat-box .stat-line span{font-weight:600;color:#333}
+        table{width:100%;border-collapse:collapse;font-size:13px}
+        th{background:#f7fafc;color:#1a365d;font-weight:600;padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;cursor:pointer;user-select:none}
+        th:hover{background:#edf2f7}
+        td{padding:10px 12px;border-bottom:1px solid #f0f0f0}
+        tr:hover{background:#f7fafc}
+        .subject-link{color:#2b6cb0;text-decoration:none;font-weight:600;cursor:pointer}
+        .subject-link:hover{text-decoration:underline}
+        .badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;text-transform:uppercase}
+        .badge-critical{background:#fff5f5;color:#e53e3e;border:1px solid #feb2b2}
+        .badge-high{background:#fffaf0;color:#dd6b20;border:1px solid #fbd38d}
+        .badge-medium{background:#fffff0;color:#d69e2e;border:1px solid #f6e05e}
+        .badge-low{background:#f0fff4;color:#38a169;border:1px solid #9ae6b4}
+        .score-bar-container{width:80px;height:8px;background:#e2e8f0;border-radius:4px;display:inline-block;vertical-align:middle}
+        .score-bar{height:100%;border-radius:4px;transition:width .5s}
+        .site-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-bottom:24px}
+        .site-card{background:#fff;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.08);border-left:4px solid #2b6cb0}
+        .site-card h4{color:#1a365d;margin-bottom:8px}
+        .site-card .stat{font-size:13px;color:#666;margin:4px 0}
+        .site-card .stat span{font-weight:600;color:#333}
+        .modal-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:100;justify-content:center;align-items:center}
+        .modal-overlay.active{display:flex}
+        .modal{background:#fff;border-radius:12px;padding:32px;max-width:700px;width:90%;max-height:85vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+        .modal h2{color:#1a365d;margin-bottom:4px}
+        .modal .close-btn{float:right;background:none;border:none;font-size:24px;cursor:pointer;color:#999;padding:0 8px}
+        .modal .close-btn:hover{color:#333}
+        .dimension-details{font-size:12px;color:#666;margin-top:4px}
+        .dimension-details li{margin:2px 0;list-style:disc inside}
+        .chart-bar-row{display:flex;align-items:center;margin:8px 0}
+        .chart-label{width:120px;font-size:12px;font-weight:600;color:#555}
+        .chart-bar-bg{flex:1;height:20px;background:#edf2f7;border-radius:4px;overflow:hidden}
+        .chart-bar-fill{height:100%;border-radius:4px;transition:width .6s ease;display:flex;align-items:center;padding-left:8px}
+        .chart-bar-fill span{font-size:11px;font-weight:600;color:#fff}
+        .chart-max{width:40px;text-align:right;font-size:12px;color:#999;margin-left:8px}
+        .filter-row{display:flex;gap:12px;margin-bottom:16px;align-items:center;flex-wrap:wrap}
+        .filter-row select{padding:8px 12px;border:1px solid #ddd;border-radius:6px;font-size:13px;background:#fff}
+        .section-label{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#999;margin-top:12px;margin-bottom:4px;font-weight:600}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>OBERON-301 Risk-Based Data Quality Monitor</h1>
+        <p>Preventive risk scoring across 6 dimensions | 10 data sources | Instant results | No API cost</p>
+    </div>
+    <div class="container">
+        <div class="upload-section" id="uploadSection">
+            <h2>Upload Study Data (10 CSV Files)</h2>
+            <form id="uploadForm">
+                <p class="section-label">Core CRF Domains (7 files)</p>
+                <div class="file-grid">
+                    <div class="file-input-group"><label>Demographics</label><input type="file" name="demographics" accept=".csv" required></div>
+                    <div class="file-input-group"><label>Medical History</label><input type="file" name="medical_history" accept=".csv" required></div>
+                    <div class="file-input-group"><label>Concomitant Meds</label><input type="file" name="concomitant_meds" accept=".csv" required></div>
+                    <div class="file-input-group"><label>Adverse Events</label><input type="file" name="adverse_events" accept=".csv" required></div>
+                    <div class="file-input-group"><label>Lab Data</label><input type="file" name="lab_data" accept=".csv" required></div>
+                    <div class="file-input-group"><label>Vital Signs</label><input type="file" name="vital_signs" accept=".csv" required></div>
+                    <div class="file-input-group"><label>Disposition</label><input type="file" name="disposition" accept=".csv" required></div>
+                </div>
+                <p class="section-label">Operational Data (3 files)</p>
+                <div class="file-grid">
+                    <div class="file-input-group new-dataset"><label>Query Detail Report</label><input type="file" name="query_detail" accept=".csv" required></div>
+                    <div class="file-input-group new-dataset"><label>Protocol Deviations</label><input type="file" name="protocol_deviations" accept=".csv" required></div>
+                    <div class="file-input-group new-dataset"><label>Visit Tracking</label><input type="file" name="visit_tracking" accept=".csv" required></div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="analyzeBtn">Run Risk Analysis</button>
+                <div class="loading" id="loading"><div class="spinner"></div><span>Calculating risk scores across 6 dimensions and 10 data sources...</span></div>
+            </form>
+        </div>
+        <div class="results-section" id="resultsSection">
+            <div class="summary-grid" id="summaryCards"></div>
+            <div class="stat-row" id="operationalStats"></div>
+            <div class="table-section"><h3>Risk Dimension Averages (Study Level)</h3><div id="dimensionChart"></div></div>
+            <div class="table-section"><h3>Site Risk Ranking</h3><div class="site-grid" id="siteGrid"></div></div>
+            <div class="table-section">
+                <h3>Subject Risk Scores</h3>
+                <div class="filter-row">
+                    <select id="filterCategory"><option value="ALL">All Categories</option><option value="CRITICAL">Critical</option><option value="HIGH">High</option><option value="MEDIUM">Medium</option><option value="LOW">Low</option></select>
+                    <select id="filterSite"><option value="ALL">All Sites</option></select>
+                    <button class="btn btn-export" onclick="exportCSV()">Export CSV</button>
+                </div>
+                <table><thead><tr>
+                    <th onclick="sortTable(0)">Subject ID</th><th onclick="sortTable(1)">Site</th><th onclick="sortTable(2)">Risk Score</th><th onclick="sortTable(3)">Category</th>
+                    <th>D1</th><th>D2</th><th>D3</th><th>D4</th><th>D5</th><th>D6</th>
+                </tr></thead><tbody id="subjectTable"></tbody></table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modalContent"><button class="close-btn" onclick="closeModal()">&times;</button><div id="modalBody"></div></div>
+    </div>
+    <script>
+        let allSubjects=[];let summaryData={};
+        document.getElementById('uploadForm').addEventListener('submit',async function(e){
+            e.preventDefault();const btn=document.getElementById('analyzeBtn');const loading=document.getElementById('loading');
+            btn.disabled=true;loading.classList.add('active');const formData=new FormData(this);
+            try{const response=await fetch('/analyze',{method:'POST',body:formData});const data=await response.json();
+                if(data.error){alert('Error: '+data.error);return}summaryData=data;allSubjects=data.top_subjects||[];renderResults(data);
+            }catch(err){alert('Error: '+err.message)}finally{btn.disabled=false;loading.classList.remove('active')}
+        });
+        function renderResults(data){
+            document.getElementById('resultsSection').classList.add('active');
+            const cats=data.categories||{};
+            document.getElementById('summaryCards').innerHTML=`
+                <div class="summary-card"><div class="number">${data.total_subjects}</div><div class="label">Total Subjects</div></div>
+                <div class="summary-card"><div class="number critical">${cats.CRITICAL||0}</div><div class="label">Critical</div></div>
+                <div class="summary-card"><div class="number high">${cats.HIGH||0}</div><div class="label">High Risk</div></div>
+                <div class="summary-card"><div class="number medium">${cats.MEDIUM||0}</div><div class="label">Medium Risk</div></div>
+                <div class="summary-card"><div class="number low">${cats.LOW||0}</div><div class="label">Low Risk</div></div>
+                <div class="summary-card"><div class="number" style="color:#2b6cb0">${data.avg_score}</div><div class="label">Avg Score</div></div>
+                <div class="summary-card"><div class="number" style="color:#e53e3e">${data.max_score}</div><div class="label">Max Score</div></div>
+                <div class="summary-card"><div class="number" style="color:#38a169">${data.min_score}</div><div class="label">Min Score</div></div>`;
+            const qs=data.query_summary||{};const ps=data.pd_summary||{};const vs=data.visit_summary||{};
+            document.getElementById('operationalStats').innerHTML=`
+                <div class="stat-box"><h4>Query Metrics</h4>
+                    <div class="stat-line">Total Queries: <span>${qs.total_queries||0}</span></div>
+                    <div class="stat-line">Open Queries: <span style="color:#e53e3e">${qs.open_queries||0}</span></div>
+                    <div class="stat-line">Avg per Subject: <span>${qs.avg_per_subject||0}</span></div></div>
+                <div class="stat-box"><h4>Protocol Deviations</h4>
+                    <div class="stat-line">Total PDs: <span>${ps.total_pds||0}</span></div>
+                    <div class="stat-line">Major PDs: <span style="color:#dd6b20">${ps.major_pds||0}</span></div>
+                    <div class="stat-line">Open CAPAs: <span style="color:#e53e3e">${ps.open_capas||0}</span></div></div>
+                <div class="stat-box"><h4>Visit Compliance</h4>
+                    <div class="stat-line">Total Visits: <span>${vs.total_visits||0}</span></div>
+                    <div class="stat-line">Missed Visits: <span style="color:#e53e3e">${vs.missed_visits||0}</span></div>
+                    <div class="stat-line">Window Violations: <span style="color:#dd6b20">${vs.window_violations||0}</span></div></div>`;
+            const dims=data.dimension_averages||{};
+            const dc=[{key:'D1_Completeness',label:'Completeness',max:20,color:'#4299e1'},{key:'D2_QueryRate',label:'Query Rate',max:20,color:'#48bb78'},
+                {key:'D3_Temporal',label:'Temporal',max:15,color:'#ed8936'},{key:'D4_Safety',label:'Safety Signal',max:20,color:'#e53e3e'},
+                {key:'D5_SiteRisk',label:'Site Risk',max:15,color:'#9f7aea'},{key:'D6_ProtocolDev',label:'Protocol Dev',max:10,color:'#ed64a6'}];
+            let ch='';dc.forEach(d=>{const v=dims[d.key]||0;const p=(v/d.max)*100;
+                ch+=`<div class="chart-bar-row"><div class="chart-label">${d.label}</div><div class="chart-bar-bg"><div class="chart-bar-fill" style="width:${p}%;background:${d.color}"><span>${v}</span></div></div><div class="chart-max">/ ${d.max}</div></div>`});
+            document.getElementById('dimensionChart').innerHTML=ch;
+            const sites=data.site_summary||[];let sh='';const ss=document.getElementById('filterSite');ss.innerHTML='<option value="ALL">All Sites</option>';
+            sites.forEach(s=>{const c=s.Avg_Score>=40?'#e53e3e':s.Avg_Score>=25?'#dd6b20':'#38a169';
+                sh+=`<div class="site-card" style="border-left-color:${c}"><h4>${s.Site_ID}</h4><div class="stat">Subjects: <span>${s.Subject_Count}</span></div><div class="stat">Avg Score: <span style="color:${c}">${s.Avg_Score.toFixed(1)}</span></div><div class="stat">Max Score: <span>${s.Max_Score}</span></div></div>`;
+                ss.innerHTML+=`<option value="${s.Site_ID}">${s.Site_ID}</option>`});
+            document.getElementById('siteGrid').innerHTML=sh;
+            renderSubjectTable(data.top_subjects);
+            document.getElementById('resultsSection').scrollIntoView({behavior:'smooth'});
+        }
+        function renderSubjectTable(subjects){
+            allSubjects=subjects;let h='';
+            subjects.forEach(s=>{const bc=`badge-${s.Risk_Category.toLowerCase()}`;
+                const c=s.Total_Risk_Score>=61?'#e53e3e':s.Total_Risk_Score>=41?'#dd6b20':s.Total_Risk_Score>=21?'#d69e2e':'#38a169';
+                h+=`<tr><td><a class="subject-link" onclick="openDetail('${s.Subject_ID}')">${s.Subject_ID}</a></td><td>${s.Site_ID}</td>
+                <td><strong>${s.Total_Risk_Score}</strong> <div class="score-bar-container"><div class="score-bar" style="width:${Math.min(100,s.Total_Risk_Score)}%;background:${c}"></div></div></td>
+                <td><span class="badge ${bc}">${s.Risk_Category}</span></td>
+                <td>${s.D1_Completeness_Score}</td><td>${s.D2_QueryRate_Score}</td><td>${s.D3_Temporal_Score}</td><td>${s.D4_Safety_Score}</td><td>${s.D5_SiteRisk_Score}</td><td>${s.D6_ProtocolDev_Score}</td></tr>`});
+            document.getElementById('subjectTable').innerHTML=h;
+        }
+        document.getElementById('filterCategory').addEventListener('change',applyFilters);
+        document.getElementById('filterSite').addEventListener('change',applyFilters);
+        function applyFilters(){const c=document.getElementById('filterCategory').value;const s=document.getElementById('filterSite').value;
+            let f=allSubjects;if(c!=='ALL')f=f.filter(x=>x.Risk_Category===c);if(s!=='ALL')f=f.filter(x=>x.Site_ID===s);renderSubjectTable(f)}
+        let sortDir={};
+        function sortTable(i){const k=['Subject_ID','Site_ID','Total_Risk_Score','Risk_Category'][i];sortDir[k]=!(sortDir[k]||false);
+            allSubjects.sort((a,b)=>{const d=sortDir[k]?1:-1;return typeof a[k]==='number'?(a[k]-b[k])*d:String(a[k]).localeCompare(String(b[k]))*d});renderSubjectTable(allSubjects)}
+        async function openDetail(sid){
+            const o=document.getElementById('modalOverlay');const b=document.getElementById('modalBody');
+            b.innerHTML='<div class="loading active"><div class="spinner"></div><span>Loading...</span></div>';o.classList.add('active');
+            try{const r=await fetch(`/subject/${sid}`);const d=await r.json();
+                const dims=[{key:'D1_Completeness_Score',name:'Data Completeness',max:20,details:'D1_Details',color:'#4299e1'},
+                    {key:'D2_QueryRate_Score',name:'Query Rate & Aging',max:20,details:'D2_Details',color:'#48bb78'},
+                    {key:'D3_Temporal_Score',name:'Temporal Anomalies & Visits',max:15,details:'D3_Details',color:'#ed8936'},
+                    {key:'D4_Safety_Score',name:'Safety Signals',max:20,details:'D4_Details',color:'#e53e3e'},
+                    {key:'D5_SiteRisk_Score',name:'Site Risk',max:15,details:'D5_Details',color:'#9f7aea'},
+                    {key:'D6_ProtocolDev_Score',name:'Protocol Deviations & CAPA',max:10,details:'D6_Details',color:'#ed64a6'}];
+                const bc=`badge-${d.Risk_Category.toLowerCase()}`;
+                let h=`<h2>Subject: ${d.Subject_ID}</h2><p style="color:#666;margin-bottom:16px">Site: ${d.Site_ID} | Total: <strong>${d.Total_Risk_Score}/100</strong> | <span class="badge ${bc}">${d.Risk_Category}</span></p><div>`;
+                dims.forEach(dm=>{const v=d[dm.key]||0;const p=(v/dm.max)*100;const dl=d[dm.details]||[];
+                    h+=`<div style="margin-bottom:16px"><div class="chart-bar-row"><div class="chart-label">${dm.name}</div><div class="chart-bar-bg"><div class="chart-bar-fill" style="width:${p}%;background:${dm.color}"><span>${v}/${dm.max}</span></div></div></div><div class="dimension-details" style="margin-left:120px"><ul>${dl.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>`});
+                h+='</div>';b.innerHTML=h;
+            }catch(err){b.innerHTML=`<p>Error: ${err.message}</p>`}
+        }
+        function closeModal(){document.getElementById('modalOverlay').classList.remove('active')}
+        document.getElementById('modalOverlay').addEventListener('click',function(e){if(e.target===this)closeModal()});
+        function exportCSV(){window.location.href='/export'}
+    </script>
+</body>
+</html>
