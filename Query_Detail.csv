@@ -1,0 +1,150 @@
+Query_ID,Subject_ID,Site_ID,Form_Name,Query_Type,Query_Text,Status,Open_Date,Response_Date,Close_Date,Age_Days
+QRY-0001,OB1111,SITE-1001,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-04-27,2025-05-06,2025-05-13,0
+QRY-0002,OB1111,SITE-1001,Concomitant_Meds,Missing Data,Please provide the missing Concomitant_Meds data for this subject.,Closed,2025-05-17,2025-05-20,2025-05-22,0
+QRY-0003,OB1111,SITE-1001,Demographics,Range Check Failure,Value recorded in Demographics is outside the expected range. Please verify.,Answered,2025-06-20,2025-06-27,,-21
+QRY-0004,OB1112,SITE-1001,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Answered,2025-02-13,2025-02-15,,106
+QRY-0005,OB1112,SITE-1001,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Answered,2025-02-03,2025-02-07,,116
+QRY-0006,OB1113,SITE-1001,Medical_History,Date Discrepancy,Date discrepancy identified in Medical_History. Please confirm the correct date.,Closed,2025-04-19,2025-04-23,2025-04-29,0
+QRY-0007,OB1113,SITE-1001,Vital_Signs,Source Data Verification,Please verify Vital_Signs data against source documents.,Open,2025-06-03,,,16
+QRY-0008,OB1113,SITE-1001,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Closed,2025-06-01,2025-06-10,2025-06-11,0
+QRY-0009,OB1115,SITE-1001,Medical_History,Safety Reporting,Safety-related data requires clarification in Medical_History.,Open,2025-01-17,,,14
+QRY-0010,OB1115,SITE-1001,Adverse_Events,Missing Data,Please provide the missing Adverse_Events data for this subject.,Open,2025-02-02,,,17
+QRY-0011,OB1115,SITE-1001,Demographics,Safety Reporting,Safety-related data requires clarification in Demographics.,Answered,2025-02-21,2025-02-25,,98
+QRY-0012,OB1116,SITE-1001,Adverse_Events,Missing Data,Please provide the missing Adverse_Events data for this subject.,Closed,2025-06-15,2025-06-25,2025-06-28,0
+QRY-0013,OB1116,SITE-1001,Vital_Signs,Safety Reporting,Safety-related data requires clarification in Vital_Signs.,Answered,2025-05-07,2025-05-18,,23
+QRY-0014,OB1116,SITE-1001,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-06-08,2025-06-19,2025-06-22,0
+QRY-0015,OB1117,SITE-1001,Disposition,Date Discrepancy,Date discrepancy identified in Disposition. Please confirm the correct date.,Closed,2025-04-10,2025-04-11,2025-04-12,0
+QRY-0016,OB1117,SITE-1001,Adverse_Events,Date Discrepancy,Date discrepancy identified in Adverse_Events. Please confirm the correct date.,Closed,2025-04-23,2025-05-06,2025-05-13,0
+QRY-0017,OB1117,SITE-1001,Concomitant_Meds,Coding Clarification,Please clarify the coding for the reported term in Concomitant_Meds.,Closed,2025-02-27,2025-03-11,2025-03-14,0
+QRY-0018,OB1118,SITE-1001,Demographics,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-04-25,2025-05-08,2025-05-14,0
+QRY-0019,OB1119,SITE-1001,Concomitant_Meds,Missing Data,Please provide the missing Concomitant_Meds data for this subject.,Closed,2025-06-25,2025-06-28,2025-07-04,0
+QRY-0020,OB1120,SITE-1001,Demographics,Range Check Failure,Value recorded in Demographics is outside the expected range. Please verify.,Answered,2025-04-12,2025-04-22,,48
+QRY-0021,OB1120,SITE-1001,Vital_Signs,Coding Clarification,Please clarify the coding for the reported term in Vital_Signs.,Closed,2025-02-21,2025-02-26,2025-03-03,0
+QRY-0022,OB1120,SITE-1001,Vital_Signs,Source Data Verification,Please verify Vital_Signs data against source documents.,Answered,2025-03-06,2025-03-07,,85
+QRY-0023,OB1122,SITE-1001,Disposition,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Answered,2025-02-20,2025-02-27,,99
+QRY-0024,OB1122,SITE-1001,Vital_Signs,Range Check Failure,Value recorded in Vital_Signs is outside the expected range. Please verify.,Closed,2025-03-31,2025-04-07,2025-04-12,0
+QRY-0025,OB1122,SITE-1001,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Closed,2025-03-02,2025-03-13,2025-03-14,0
+QRY-0026,OB1122,SITE-1001,Adverse_Events,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-03-11,2025-03-18,2025-03-21,0
+QRY-0027,OB1122,SITE-1001,Adverse_Events,Source Data Verification,Please verify Adverse_Events data against source documents.,Closed,2025-03-21,2025-03-28,2025-04-04,0
+QRY-0028,OB1122,SITE-1001,Disposition,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-04-16,2025-04-21,2025-04-23,0
+QRY-0029,OB1125,SITE-1001,Disposition,Range Check Failure,Value recorded in Disposition is outside the expected range. Please verify.,Answered,2025-07-14,2025-07-20,,-45
+QRY-0030,OB1125,SITE-1001,Lab_Data,Safety Reporting,Safety-related data requires clarification in Lab_Data.,Open,2025-05-13,,,11
+QRY-0031,OB1126,SITE-1001,Demographics,Range Check Failure,Value recorded in Demographics is outside the expected range. Please verify.,Closed,2025-02-07,2025-02-18,2025-02-22,0
+QRY-0032,OB1128,SITE-1001,Concomitant_Meds,Coding Clarification,Please clarify the coding for the reported term in Concomitant_Meds.,Closed,2025-05-05,2025-05-11,2025-05-15,0
+QRY-0033,OB1128,SITE-1001,Medical_History,Source Data Verification,Please verify Medical_History data against source documents.,Answered,2025-06-30,2025-07-13,,-31
+QRY-0034,OB1128,SITE-1001,Disposition,Range Check Failure,Value recorded in Disposition is outside the expected range. Please verify.,Answered,2025-07-04,2025-07-16,,-35
+QRY-0035,OB1129,SITE-1001,Concomitant_Meds,Missing Data,Please provide the missing Concomitant_Meds data for this subject.,Answered,2025-05-01,2025-05-03,,29
+QRY-0036,OB1129,SITE-1001,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-06-28,2025-07-10,2025-07-14,0
+QRY-0037,OB1132,SITE-1001,Adverse_Events,Date Discrepancy,Date discrepancy identified in Adverse_Events. Please confirm the correct date.,Closed,2025-06-25,2025-07-02,2025-07-03,0
+QRY-0038,OB1132,SITE-1001,Adverse_Events,Date Discrepancy,Date discrepancy identified in Adverse_Events. Please confirm the correct date.,Closed,2025-05-24,2025-05-31,2025-06-01,0
+QRY-0039,OB1132,SITE-1001,Concomitant_Meds,Data Inconsistency,Data in Concomitant_Meds appears inconsistent. Please review and clarify.,Answered,2025-05-25,2025-05-29,,5
+QRY-0040,OB1132,SITE-1001,Vital_Signs,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-06-29,2025-07-12,2025-07-18,0
+QRY-0041,OB1132,SITE-1001,Concomitant_Meds,Source Data Verification,Please verify Concomitant_Meds data against source documents.,Open,2025-06-30,,,4
+QRY-0042,OB1132,SITE-1001,Lab_Data,Coding Clarification,Please clarify the coding for the reported term in Lab_Data.,Closed,2025-08-04,2025-08-08,2025-08-11,0
+QRY-0043,OB1132,SITE-1001,Lab_Data,Coding Clarification,Please clarify the coding for the reported term in Lab_Data.,Closed,2025-06-12,2025-06-26,2025-06-27,0
+QRY-0044,OB1132,SITE-1001,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-07-10,2025-07-14,2025-07-19,0
+QRY-0045,OB1133,SITE-1001,Adverse_Events,Data Inconsistency,Data in Adverse_Events appears inconsistent. Please review and clarify.,Closed,2025-05-09,2025-05-18,2025-05-24,0
+QRY-0046,OB1133,SITE-1001,Vital_Signs,Range Check Failure,Value recorded in Vital_Signs is outside the expected range. Please verify.,Open,2025-05-13,,,8
+QRY-0047,OB1134,SITE-1001,Demographics,Coding Clarification,Please clarify the coding for the reported term in Demographics.,Closed,2025-01-27,2025-02-06,2025-02-09,0
+QRY-0048,OB1134,SITE-1001,Concomitant_Meds,Coding Clarification,Please clarify the coding for the reported term in Concomitant_Meds.,Answered,2025-04-02,2025-04-08,,58
+QRY-0049,OB1134,SITE-1001,Demographics,Source Data Verification,Please verify Demographics data against source documents.,Answered,2025-02-17,2025-02-23,,102
+QRY-0050,OB1136,SITE-1001,Adverse_Events,Source Data Verification,Please verify Adverse_Events data against source documents.,Closed,2025-06-06,2025-06-19,2025-06-26,0
+QRY-0051,OB1136,SITE-1001,Adverse_Events,Missing Data,Please provide the missing Adverse_Events data for this subject.,Closed,2025-05-11,2025-05-17,2025-05-22,0
+QRY-0052,OB1140,SITE-1002,Concomitant_Meds,Range Check Failure,Value recorded in Concomitant_Meds is outside the expected range. Please verify.,Closed,2025-06-06,2025-06-10,2025-06-13,0
+QRY-0053,OB1140,SITE-1002,Demographics,Data Inconsistency,Data in Demographics appears inconsistent. Please review and clarify.,Closed,2025-04-15,2025-04-16,2025-04-20,0
+QRY-0054,OB1140,SITE-1002,Vital_Signs,Range Check Failure,Value recorded in Vital_Signs is outside the expected range. Please verify.,Open,2025-03-24,,,10
+QRY-0055,OB1140,SITE-1002,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-03-29,2025-04-02,2025-04-08,0
+QRY-0056,OB1140,SITE-1002,Adverse_Events,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-04-05,2025-04-16,2025-04-22,0
+QRY-0057,OB1140,SITE-1002,Medical_History,Missing Data,Please provide the missing Medical_History data for this subject.,Answered,2025-05-09,2025-05-14,,21
+QRY-0058,OB1140,SITE-1002,Adverse_Events,Coding Clarification,Please clarify the coding for the reported term in Adverse_Events.,Closed,2025-03-17,2025-03-19,2025-03-21,0
+QRY-0059,OB1140,SITE-1002,Adverse_Events,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-05-23,2025-05-31,2025-06-03,0
+QRY-0060,OB1140,SITE-1002,Lab_Data,Data Inconsistency,Data in Lab_Data appears inconsistent. Please review and clarify.,Open,2025-05-12,,,21
+QRY-0061,OB1140,SITE-1002,Vital_Signs,Date Discrepancy,Date discrepancy identified in Vital_Signs. Please confirm the correct date.,Closed,2025-03-28,2025-04-05,2025-04-09,0
+QRY-0062,OB1142,SITE-1002,Medical_History,Source Data Verification,Please verify Medical_History data against source documents.,Closed,2025-01-24,2025-01-25,2025-01-29,0
+QRY-0063,OB1142,SITE-1002,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Closed,2025-02-03,2025-02-10,2025-02-17,0
+QRY-0064,OB1142,SITE-1002,Medical_History,Date Discrepancy,Date discrepancy identified in Medical_History. Please confirm the correct date.,Answered,2025-01-27,2025-02-10,,123
+QRY-0065,OB1143,SITE-1002,Concomitant_Meds,Range Check Failure,Value recorded in Concomitant_Meds is outside the expected range. Please verify.,Closed,2025-04-11,2025-04-17,2025-04-23,0
+QRY-0066,OB1144,SITE-1002,Disposition,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-01-26,2025-02-02,2025-02-06,0
+QRY-0067,OB1144,SITE-1002,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-04-12,2025-04-22,2025-04-26,0
+QRY-0068,OB1144,SITE-1002,Lab_Data,Date Discrepancy,Date discrepancy identified in Lab_Data. Please confirm the correct date.,Open,2025-01-24,,,14
+QRY-0069,OB1146,SITE-1002,Adverse_Events,Safety Reporting,Safety-related data requires clarification in Adverse_Events.,Open,2025-03-21,,,23
+QRY-0070,OB1147,SITE-1002,Disposition,Coding Clarification,Please clarify the coding for the reported term in Disposition.,Closed,2025-04-06,2025-04-18,2025-04-24,0
+QRY-0071,OB1148,SITE-1002,Lab_Data,Coding Clarification,Please clarify the coding for the reported term in Lab_Data.,Answered,2025-03-23,2025-03-26,,68
+QRY-0072,OB1148,SITE-1002,Vital_Signs,Safety Reporting,Safety-related data requires clarification in Vital_Signs.,Closed,2025-04-07,2025-04-17,2025-04-22,0
+QRY-0073,OB1149,SITE-1002,Lab_Data,Coding Clarification,Please clarify the coding for the reported term in Lab_Data.,Closed,2025-04-20,2025-04-30,2025-05-03,0
+QRY-0074,OB1149,SITE-1002,Vital_Signs,Missing Data,Please provide the missing Vital_Signs data for this subject.,Closed,2025-04-18,2025-05-02,2025-05-06,0
+QRY-0075,OB1149,SITE-1002,Demographics,Coding Clarification,Please clarify the coding for the reported term in Demographics.,Answered,2025-05-18,2025-05-22,,12
+QRY-0076,OB1150,SITE-1002,Disposition,Missing Data,Please provide the missing Disposition data for this subject.,Closed,2025-02-21,2025-03-06,2025-03-07,0
+QRY-0077,OB1151,SITE-1002,Disposition,Source Data Verification,Please verify Disposition data against source documents.,Closed,2025-03-27,2025-03-31,2025-04-06,0
+QRY-0078,OB1152,SITE-1002,Vital_Signs,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Answered,2025-02-28,2025-03-02,,91
+QRY-0079,OB1155,SITE-1002,Adverse_Events,Range Check Failure,Value recorded in Adverse_Events is outside the expected range. Please verify.,Open,2025-05-04,,,14
+QRY-0080,OB1155,SITE-1002,Medical_History,Missing Data,Please provide the missing Medical_History data for this subject.,Closed,2025-05-26,2025-05-30,2025-06-05,0
+QRY-0081,OB1157,SITE-1002,Vital_Signs,Missing Data,Please provide the missing Vital_Signs data for this subject.,Closed,2025-05-06,2025-05-11,2025-05-16,0
+QRY-0082,OB1157,SITE-1002,Medical_History,Source Data Verification,Please verify Medical_History data against source documents.,Closed,2025-03-26,2025-04-04,2025-04-06,0
+QRY-0083,OB1157,SITE-1002,Demographics,Coding Clarification,Please clarify the coding for the reported term in Demographics.,Closed,2025-04-02,2025-04-07,2025-04-13,0
+QRY-0084,OB1157,SITE-1002,Lab_Data,Source Data Verification,Please verify Lab_Data data against source documents.,Closed,2025-04-05,2025-04-09,2025-04-15,0
+QRY-0085,OB1157,SITE-1002,Vital_Signs,Data Inconsistency,Data in Vital_Signs appears inconsistent. Please review and clarify.,Answered,2025-04-06,2025-04-15,,54
+QRY-0086,OB1157,SITE-1002,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-06-22,2025-07-03,2025-07-06,0
+QRY-0087,OB1157,SITE-1002,Vital_Signs,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-06-02,2025-06-04,2025-06-08,0
+QRY-0088,OB1157,SITE-1002,Demographics,Safety Reporting,Safety-related data requires clarification in Demographics.,Closed,2025-05-17,2025-05-29,2025-05-31,0
+QRY-0089,OB1157,SITE-1002,Concomitant_Meds,Data Inconsistency,Data in Concomitant_Meds appears inconsistent. Please review and clarify.,Closed,2025-06-11,2025-06-24,2025-06-27,0
+QRY-0090,OB1158,SITE-1003,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Closed,2025-06-06,2025-06-15,2025-06-17,0
+QRY-0091,OB1158,SITE-1003,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-05-27,2025-06-10,2025-06-11,0
+QRY-0092,OB1158,SITE-1003,Vital_Signs,Date Discrepancy,Date discrepancy identified in Vital_Signs. Please confirm the correct date.,Open,2025-05-14,,,17
+QRY-0093,OB1160,SITE-1003,Disposition,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Open,2025-05-13,,,7
+QRY-0094,OB1160,SITE-1003,Disposition,Data Inconsistency,Data in Disposition appears inconsistent. Please review and clarify.,Closed,2025-03-12,2025-03-18,2025-03-23,0
+QRY-0095,OB1162,SITE-1003,Concomitant_Meds,Range Check Failure,Value recorded in Concomitant_Meds is outside the expected range. Please verify.,Closed,2025-03-17,2025-03-22,2025-03-29,0
+QRY-0096,OB1162,SITE-1003,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-03-28,2025-04-02,2025-04-08,0
+QRY-0097,OB1162,SITE-1003,Disposition,Data Inconsistency,Data in Disposition appears inconsistent. Please review and clarify.,Closed,2025-04-28,2025-05-05,2025-05-09,0
+QRY-0098,OB1162,SITE-1003,Disposition,Data Inconsistency,Data in Disposition appears inconsistent. Please review and clarify.,Open,2025-03-23,,,19
+QRY-0099,OB1162,SITE-1003,Demographics,Source Data Verification,Please verify Demographics data against source documents.,Answered,2025-03-31,2025-04-13,,60
+QRY-0100,OB1162,SITE-1003,Disposition,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-05-06,2025-05-20,2025-05-26,0
+QRY-0101,OB1162,SITE-1003,Vital_Signs,Missing Data,Please provide the missing Vital_Signs data for this subject.,Answered,2025-03-26,2025-04-03,,65
+QRY-0102,OB1165,SITE-1003,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Open,2025-06-17,,,-18
+QRY-0103,OB1165,SITE-1003,Vital_Signs,Coding Clarification,Please clarify the coding for the reported term in Vital_Signs.,Open,2025-06-15,,,-16
+QRY-0104,OB1165,SITE-1003,Adverse_Events,Coding Clarification,Please clarify the coding for the reported term in Adverse_Events.,Open,2025-07-10,,,-41
+QRY-0105,OB1165,SITE-1003,Disposition,Data Inconsistency,Data in Disposition appears inconsistent. Please review and clarify.,Open,2025-07-17,,,-48
+QRY-0106,OB1166,SITE-1003,Lab_Data,Safety Reporting,Safety-related data requires clarification in Lab_Data.,Closed,2025-07-18,2025-07-24,2025-07-30,0
+QRY-0107,OB1166,SITE-1003,Vital_Signs,Safety Reporting,Safety-related data requires clarification in Vital_Signs.,Closed,2025-06-30,2025-07-08,2025-07-13,0
+QRY-0108,OB1168,SITE-1003,Adverse_Events,Data Inconsistency,Data in Adverse_Events appears inconsistent. Please review and clarify.,Closed,2025-03-25,2025-04-06,2025-04-10,0
+QRY-0109,OB1168,SITE-1003,Demographics,Safety Reporting,Safety-related data requires clarification in Demographics.,Closed,2025-03-10,2025-03-12,2025-03-19,0
+QRY-0110,OB1169,SITE-1003,Disposition,Source Data Verification,Please verify Disposition data against source documents.,Closed,2025-07-07,2025-07-21,2025-07-22,0
+QRY-0111,OB1169,SITE-1003,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-07-11,2025-07-25,2025-07-26,0
+QRY-0112,OB1169,SITE-1003,Vital_Signs,Date Discrepancy,Date discrepancy identified in Vital_Signs. Please confirm the correct date.,Closed,2025-06-03,2025-06-16,2025-06-18,0
+QRY-0113,OB1170,SITE-1003,Vital_Signs,Date Discrepancy,Date discrepancy identified in Vital_Signs. Please confirm the correct date.,Answered,2025-04-26,2025-05-06,,34
+QRY-0114,OB1170,SITE-1003,Vital_Signs,Date Discrepancy,Date discrepancy identified in Vital_Signs. Please confirm the correct date.,Answered,2025-06-12,2025-06-13,,-13
+QRY-0115,OB1171,SITE-1003,Disposition,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Open,2025-03-04,,,1
+QRY-0116,OB1171,SITE-1003,Disposition,Date Discrepancy,Date discrepancy identified in Disposition. Please confirm the correct date.,Closed,2025-04-21,2025-04-30,2025-05-07,0
+QRY-0117,OB1173,SITE-1003,Vital_Signs,Coding Clarification,Please clarify the coding for the reported term in Vital_Signs.,Answered,2025-05-19,2025-05-29,,11
+QRY-0118,OB1175,SITE-1003,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Open,2025-03-31,,,9
+QRY-0119,OB1175,SITE-1003,Lab_Data,Missing Data,Please provide the missing Lab_Data data for this subject.,Closed,2025-04-21,2025-05-02,2025-05-03,0
+QRY-0120,OB1176,SITE-1004,Concomitant_Meds,Coding Clarification,Please clarify the coding for the reported term in Concomitant_Meds.,Closed,2025-04-22,2025-05-04,2025-05-09,0
+QRY-0121,OB1176,SITE-1004,Demographics,Date Discrepancy,Date discrepancy identified in Demographics. Please confirm the correct date.,Open,2025-02-25,,,30
+QRY-0122,OB1176,SITE-1004,Concomitant_Meds,Date Discrepancy,Date discrepancy identified in Concomitant_Meds. Please confirm the correct date.,Answered,2025-05-13,2025-05-27,,17
+QRY-0123,OB1176,SITE-1004,Disposition,Range Check Failure,Value recorded in Disposition is outside the expected range. Please verify.,Closed,2025-04-27,2025-05-03,2025-05-05,0
+QRY-0124,OB1176,SITE-1004,Medical_History,Source Data Verification,Please verify Medical_History data against source documents.,Closed,2025-03-05,2025-03-12,2025-03-16,0
+QRY-0125,OB1176,SITE-1004,Concomitant_Meds,Safety Reporting,Safety-related data requires clarification in Concomitant_Meds.,Closed,2025-04-06,2025-04-12,2025-04-15,0
+QRY-0126,OB1180,SITE-1004,Vital_Signs,Source Data Verification,Please verify Vital_Signs data against source documents.,Open,2025-07-18,,,2
+QRY-0127,OB1182,SITE-1004,Concomitant_Meds,Data Inconsistency,Data in Concomitant_Meds appears inconsistent. Please review and clarify.,Open,2025-03-18,,,73
+QRY-0128,OB1182,SITE-1004,Lab_Data,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-04-30,2025-05-07,2025-05-10,0
+QRY-0129,OB1182,SITE-1004,Vital_Signs,Safety Reporting,Safety-related data requires clarification in Vital_Signs.,Open,2025-04-30,,,30
+QRY-0130,OB1182,SITE-1004,Lab_Data,Date Discrepancy,Date discrepancy identified in Lab_Data. Please confirm the correct date.,Open,2025-05-07,,,23
+QRY-0131,OB1182,SITE-1004,Demographics,Safety Reporting,Safety-related data requires clarification in Demographics.,Closed,2025-05-07,2025-05-12,2025-05-15,0
+QRY-0132,OB1183,SITE-1004,Disposition,Data Inconsistency,Data in Disposition appears inconsistent. Please review and clarify.,Closed,2025-03-09,2025-03-23,2025-03-27,0
+QRY-0133,OB1184,SITE-1004,Concomitant_Meds,Date Discrepancy,Date discrepancy identified in Concomitant_Meds. Please confirm the correct date.,Closed,2025-04-27,2025-05-08,2025-05-09,0
+QRY-0134,OB1184,SITE-1004,Concomitant_Meds,Date Discrepancy,Date discrepancy identified in Concomitant_Meds. Please confirm the correct date.,Answered,2025-01-25,2025-02-02,,125
+QRY-0135,OB1184,SITE-1004,Vital_Signs,Date Discrepancy,Date discrepancy identified in Vital_Signs. Please confirm the correct date.,Closed,2025-02-09,2025-02-14,2025-02-18,0
+QRY-0136,OB1185,SITE-1004,Disposition,Range Check Failure,Value recorded in Disposition is outside the expected range. Please verify.,Closed,2025-05-08,2025-05-22,2025-05-27,0
+QRY-0137,OB1185,SITE-1004,Disposition,Range Check Failure,Value recorded in Disposition is outside the expected range. Please verify.,Open,2025-05-10,,,6
+QRY-0138,OB1185,SITE-1004,Lab_Data,Missing Data,Please provide the missing Lab_Data data for this subject.,Closed,2025-04-06,2025-04-09,2025-04-14,0
+QRY-0139,OB1186,SITE-1004,Concomitant_Meds,Missing Data,Please provide the missing Concomitant_Meds data for this subject.,Answered,2025-04-14,2025-04-27,,46
+QRY-0140,OB1186,SITE-1004,Lab_Data,Coding Clarification,Please clarify the coding for the reported term in Lab_Data.,Closed,2025-05-29,2025-06-05,2025-06-06,0
+QRY-0141,OB1188,SITE-1004,Disposition,Source Data Verification,Please verify Disposition data against source documents.,Open,2025-01-26,,,21
+QRY-0142,OB1188,SITE-1004,Concomitant_Meds,Coding Clarification,Please clarify the coding for the reported term in Concomitant_Meds.,Closed,2025-03-12,2025-03-20,2025-03-26,0
+QRY-0143,OB1188,SITE-1004,Lab_Data,Missing Data,Please provide the missing Lab_Data data for this subject.,Open,2025-04-13,,,10
+QRY-0144,OB1189,SITE-1004,Disposition,Safety Reporting,Safety-related data requires clarification in Disposition.,Open,2025-05-21,,,9
+QRY-0145,OB1189,SITE-1004,Demographics,Safety Reporting,Safety-related data requires clarification in Demographics.,Closed,2025-04-12,2025-04-15,2025-04-19,0
+QRY-0146,OB1189,SITE-1004,Concomitant_Meds,Missing Data,Please provide the missing Concomitant_Meds data for this subject.,Open,2025-04-26,,,34
+QRY-0147,OB1193,SITE-1004,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-07-19,2025-07-29,2025-08-01,0
+QRY-0148,OB1196,SITE-1004,Medical_History,Protocol Deviation,Potential protocol deviation identified. Please provide explanation.,Closed,2025-03-11,2025-03-18,2025-03-22,0
+QRY-0149,OB1196,SITE-1004,Demographics,Source Data Verification,Please verify Demographics data against source documents.,Closed,2025-04-04,2025-04-05,2025-04-08,0

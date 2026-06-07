@@ -1,0 +1,130 @@
+Subject_ID,AE_Term,AE_Verbatim,Severity,Seriousness,Causality,Start_Date,End_Date,Action_Taken,Outcome
+OB1111,Diarrhea,Diarrhea,Mild,No,Possibly Related,2025-07-02,,Non-drug Therapy,Recovering/Resolving
+OB1111,Rash,Erythematous rash,Moderate,No,Possibly Related,2025-05-17,,Non-drug Therapy,Recovering/Resolving
+OB1112,Nausea,Nausea,Moderate,Yes,Not Related,2025-03-24,,Drug Withdrawn,Recovering/Resolving
+OB1112,Arthralgia,Arthralgia,Mild,No,Not Related,2025-02-08,,None,Not Recovered/Not Resolved
+OB1112,Peripheral Edema,Leg swelling,Mild,No,Not Related,2025-02-18,2025-03-13,Concomitant Medication Given,Recovered/Resolved
+OB1113,Back Pain,Mild back pain,Moderate,No,Not Related,2025-06-04,2025-07-15,None,Recovered/Resolved
+OB1113,Rash,Maculopapular rash,Mild,Yes,Not Related,2025-04-29,2025-05-22,Dose Reduced,Recovered/Resolved
+OB1113,Diarrhea,Mild diarrhea,Mild,No,Not Related,2025-04-24,,Dose Reduced,Recovering/Resolving
+OB1113,Abdominal Pain,Epigastric pain,Moderate,No,Not Related,2025-03-29,,Dose Reduced,Recovering/Resolving
+OB1115,Nausea,Nausea without vomiting,Mild,No,Not Related,2025-05-09,2025-06-23,Non-drug Therapy,Recovered/Resolved
+OB1116,Arthralgia,Bilateral knee pain,Severe,No,Not Related,2025-02-19,2025-04-06,Concomitant Medication Given,Recovered/Resolved
+OB1116,Vomiting,Vomiting,Moderate,No,Not Related,2025-04-05,2025-04-14,Drug Interrupted,Recovered/Resolved
+OB1117,Rash,Erythematous rash,Moderate,No,Not Related,2025-04-06,,Drug Interrupted,Recovering/Resolving
+OB1117,Back Pain,Mild back pain,Mild,Yes,Not Related,2025-04-06,2025-05-02,Drug Withdrawn,Recovered with Sequelae
+OB1119,Abdominal Pain,Abdominal pain,Moderate,Yes,Possibly Related,2025-03-28,,Concomitant Medication Given,Recovering/Resolving
+OB1119,Diarrhea,Watery diarrhea,Moderate,No,Related,2025-03-23,2025-05-19,Drug Withdrawn,Recovered/Resolved
+OB1120,Dizziness,Dizziness,Moderate,No,Not Related,2025-04-25,,None,Not Recovered/Not Resolved
+OB1120,Nausea,Morning nausea,Moderate,No,Not Related,2025-04-10,,None,Recovering/Resolving
+OB1120,Constipation,Mild constipation,Mild,No,Not Related,2025-03-12,,Drug Interrupted,Recovering/Resolving
+OB1120,Abdominal Pain,Abdominal pain,Severe,No,Not Related,2025-04-02,,Drug Interrupted,Not Recovered/Not Resolved
+OB1125,Upper Respiratory Tract Infection,Upper respiratory infection,Mild,No,Related,2025-05-17,,Concomitant Medication Given,Recovering/Resolving
+OB1125,Headache,Headache,Moderate,No,Possibly Related,2025-02-12,2025-02-19,None,Recovered/Resolved
+OB1125,Dizziness,Feeling dizzy,Severe,No,Possibly Related,2025-03-04,,Concomitant Medication Given,Recovering/Resolving
+OB1125,Cough,Dry cough,Mild,No,Related,2025-02-23,2025-03-19,None,Recovered/Resolved
+OB1126,Fatigue,Feeling tired,Moderate,No,Not Related,2025-04-26,2025-05-16,None,Recovered/Resolved
+OB1126,Nausea,Mild nausea,Moderate,No,Related,2025-04-02,,None,Recovering/Resolving
+OB1126,Insomnia,Difficulty sleeping,Mild,No,Possibly Related,2025-06-07,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1129,Nausea,Nausea without vomiting,Moderate,No,Not Related,2025-02-04,,None,Recovering/Resolving
+OB1133,Peripheral Edema,Swelling in ankles,Severe,No,Not Related,2025-06-04,2025-07-24,Drug Withdrawn,Recovered with Sequelae
+OB1133,Dizziness,Feeling dizzy,Severe,No,Related,2025-05-28,2025-06-19,Drug Interrupted,Recovered/Resolved
+OB1133,Urinary Tract Infection,Burning urination,Mild,No,Related,2025-05-27,2025-06-19,Drug Withdrawn,Recovered/Resolved
+OB1136,Pyrexia,Temperature elevation,Mild,No,Possibly Related,2025-06-25,2025-08-22,Concomitant Medication Given,Recovered/Resolved
+OB1136,Rash,Mild rash,Mild,No,Possibly Related,2025-04-10,2025-04-29,None,Recovered with Sequelae
+OB1136,Arthralgia,Bilateral knee pain,Mild,No,Possibly Related,2025-05-18,,Concomitant Medication Given,Recovering/Resolving
+OB1140,Arthralgia,Knee pain,Severe,No,Possibly Related,2025-04-27,2025-05-04,Drug Interrupted,Recovered/Resolved
+OB1140,Back Pain,Lumbar pain,Severe,No,Not Related,2025-04-22,,Concomitant Medication Given,Recovering/Resolving
+OB1140,Rash,Mild rash,Mild,No,Not Related,2025-04-05,,Concomitant Medication Given,Recovering/Resolving
+OB1140,Pneumonia,Pneumonia requiring hospitalization,Severe,No,Related,2025-02-28,2025-04-15,Concomitant Medication Given,Recovered/Resolved
+OB1142,Myalgia,Myalgia,Mild,Yes,Not Related,2025-02-10,,None,Recovering/Resolving
+OB1144,Peripheral Edema,Pedal edema,Moderate,No,Possibly Related,2025-04-07,2025-05-27,Concomitant Medication Given,Recovered/Resolved
+OB1144,Urinary Tract Infection,UTI,Mild,No,Not Related,2025-02-25,2025-04-06,None,Recovered/Resolved
+OB1144,Diarrhea,Frequent loose stools,Mild,No,Not Related,2025-03-03,,None,Recovering/Resolving
+OB1146,Abdominal Pain,Upper abdominal pain,Mild,No,Possibly Related,2025-06-17,2025-07-11,None,Recovered/Resolved
+OB1146,Upper Respiratory Tract Infection,Sore throat with cough,Mild,No,Possibly Related,2025-03-09,2025-04-04,None,Recovered/Resolved
+OB1147,Dizziness,Postural dizziness,Mild,No,Possibly Related,2025-03-18,2025-05-07,None,Recovered/Resolved
+OB1147,Urinary Tract Infection,Bladder infection,Mild,No,Related,2025-05-04,,Concomitant Medication Given,Recovering/Resolving
+OB1148,Pyrexia,Febrile episode,Severe,No,Possibly Related,2025-07-19,2025-08-06,Drug Withdrawn,Recovered/Resolved
+OB1149,Hypertension,High blood pressure,Mild,No,Possibly Related,2025-07-27,,Dose Reduced,Not Recovered/Not Resolved
+OB1149,Pyrexia,Pyrexia,Mild,No,Not Related,2025-04-30,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1149,Dizziness,Mild dizziness,Severe,No,Not Related,2025-04-26,2025-06-04,Drug Interrupted,Recovered/Resolved
+OB1150,Insomnia,Sleep disturbance,Mild,No,Possibly Related,2025-07-03,2025-07-06,Dose Reduced,Recovered/Resolved
+OB1150,Pyrexia,Temperature elevation,Moderate,No,Related,2025-04-15,,Concomitant Medication Given,Recovering/Resolving
+OB1151,Back Pain,Back pain,Mild,Yes,Possibly Related,2025-06-10,2025-07-07,None,Recovered/Resolved
+OB1151,Arthralgia,Knee pain,Moderate,No,Related,2025-03-29,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1151,Upper Respiratory Tract Infection,Cold symptoms,Moderate,No,Possibly Related,2025-06-19,2025-06-28,Concomitant Medication Given,Recovered/Resolved
+OB1151,Abdominal Pain,Mild abdominal discomfort,Moderate,No,Not Related,2025-06-15,2025-06-30,None,Recovered/Resolved
+OB1152,Peripheral Edema,Swelling in ankles,Mild,No,Related,2025-02-24,2025-03-28,Dose Reduced,Recovered/Resolved
+OB1152,Back Pain,Lumbar pain,Moderate,No,Not Related,2025-04-29,,None,Recovering/Resolving
+OB1153,Fatigue,Tiredness,Severe,No,Related,2025-05-07,2025-05-25,None,Recovered/Resolved
+OB1153,Abdominal Pain,Epigastric pain,Severe,No,Not Related,2025-03-25,,Concomitant Medication Given,Recovering/Resolving
+OB1153,Urinary Tract Infection,Bladder infection,Mild,No,Not Related,2025-06-23,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1153,Constipation,Difficulty passing stool,Moderate,No,Possibly Related,2025-05-30,,None,Not Recovered/Not Resolved
+OB1154,Abdominal Pain,Mild abdominal discomfort,Severe,No,Possibly Related,2025-06-26,2025-08-18,Drug Interrupted,Recovered/Resolved
+OB1154,Myalgia,Body aches,Mild,No,Possibly Related,2025-05-23,2025-07-02,None,Recovered/Resolved
+OB1154,Upper Respiratory Tract Infection,URTI,Mild,No,Not Related,2025-03-24,,None,Recovering/Resolving
+OB1154,Back Pain,Lower back pain,Severe,Yes,Not Related,2025-04-30,,Drug Interrupted,Recovering/Resolving
+OB1155,Pyrexia,Temperature elevation,Severe,No,Possibly Related,2025-07-21,,Dose Reduced,Recovering/Resolving
+OB1155,Vomiting,Projectile vomiting,Moderate,No,Not Related,2025-08-10,,None,Not Recovered/Not Resolved
+OB1155,Dizziness,Feeling dizzy,Mild,No,Not Related,2025-06-26,2025-08-25,None,Recovered/Resolved
+OB1156,Myalgia,Body aches,Moderate,No,Possibly Related,2025-05-01,2025-05-26,Drug Interrupted,Recovered/Resolved
+OB1156,Diarrhea,Watery diarrhea,Moderate,No,Possibly Related,2025-07-18,,None,Recovering/Resolving
+OB1156,Nausea,Mild nausea,Mild,No,Possibly Related,2025-04-20,,None,Recovering/Resolving
+OB1156,Fatigue,Fatigue,Mild,No,Not Related,2025-05-15,,None,Recovering/Resolving
+OB1157,Upper Respiratory Tract Infection,Upper respiratory infection,Moderate,No,Possibly Related,2025-06-25,2025-07-15,None,Recovered/Resolved
+OB1157,Abdominal Pain,Stomach pain,Mild,No,Possibly Related,2025-06-21,2025-07-28,Concomitant Medication Given,Recovered/Resolved
+OB1157,Headache,Severe throbbing headache,Moderate,No,Not Related,2025-05-06,2025-05-11,Concomitant Medication Given,Recovered/Resolved
+OB1158,Peripheral Edema,Swelling in ankles,Mild,No,Possibly Related,2025-04-29,2025-05-15,None,Recovered/Resolved
+OB1158,Arthralgia,Arthralgia,Severe,No,Not Related,2025-04-13,,Drug Interrupted,Not Recovered/Not Resolved
+OB1158,Pyrexia,Fever,Severe,No,Related,2025-05-02,2025-05-18,Drug Interrupted,Recovered/Resolved
+OB1158,Hypertension,High blood pressure,Mild,No,Not Related,2025-01-31,,None,Recovering/Resolving
+OB1159,Dyspnea,Mild dyspnea,Mild,No,Possibly Related,2025-07-17,,Dose Reduced,Recovering/Resolving
+OB1161,Diarrhea,Diarrhea,Mild,No,Not Related,2025-08-07,,None,Not Recovered/Not Resolved
+OB1161,Fatigue,Malaise,Mild,No,Possibly Related,2025-08-22,,Concomitant Medication Given,Recovering/Resolving
+OB1161,Peripheral Edema,Swelling in ankles,Moderate,No,Related,2025-07-19,2025-08-22,None,Recovered/Resolved
+OB1165,Nausea,Nausea without vomiting,Moderate,No,Related,2025-04-21,,Drug Withdrawn,Recovering/Resolving
+OB1166,Arthralgia,Knee pain,Moderate,Yes,Possibly Related,2025-01-09,2025-01-23,None,Recovered/Resolved
+OB1168,Hypertension,Elevated BP,Mild,No,Not Related,2025-05-23,2025-07-15,None,Recovered/Resolved
+OB1168,Abdominal Pain,Mild abdominal discomfort,Moderate,Yes,Possibly Related,2025-06-09,2025-07-10,None,Recovered/Resolved
+OB1169,Constipation,Infrequent bowel movements,Mild,No,Related,2025-05-23,,None,Not Recovered/Not Resolved
+OB1169,Diarrhea,Diarrhea,Moderate,No,Related,2025-05-29,2025-06-30,None,Recovered/Resolved
+OB1171,Myalgia,Muscle pain,Moderate,No,Not Related,2025-05-26,2025-06-30,Drug Interrupted,Recovered/Resolved
+OB1171,Cough,Cough,Severe,No,Possibly Related,2025-06-07,,Drug Interrupted,Recovering/Resolving
+OB1172,Fatigue,Generalized fatigue,Mild,No,Not Related,2025-04-02,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1173,Constipation,Mild constipation,Moderate,No,Related,2025-02-08,2025-03-31,Concomitant Medication Given,Recovered/Resolved
+OB1173,Insomnia,Difficulty sleeping,Moderate,No,Not Related,2025-05-24,,None,Not Recovered/Not Resolved
+OB1173,Back Pain,Lumbar pain,Severe,No,Not Related,2025-05-13,,Concomitant Medication Given,Recovering/Resolving
+OB1173,Hypertension,Elevated BP,Mild,No,Not Related,2025-05-15,2025-05-21,Concomitant Medication Given,Recovered/Resolved
+OB1175,Diarrhea,Loose stools,Moderate,No,Not Related,2025-03-30,,None,Recovering/Resolving
+OB1175,Vomiting,Mild vomiting,Severe,No,Not Related,2025-06-22,2025-06-27,Drug Interrupted,Recovered/Resolved
+OB1176,Hypertension,BP 160/95,Mild,No,Possibly Related,2025-05-31,2025-07-19,None,Recovered/Resolved
+OB1176,Acute Myocardial Infarction,Acute myocardial infarction leading to death,Severe,Yes,Possibly Related,2025-06-29,2025-07-06,Drug Withdrawn,Fatal
+OB1177,Cough,Mild cough,Moderate,No,Related,2025-06-16,2025-07-22,Dose Reduced,Recovered/Resolved
+OB1177,Pyrexia,Temperature elevation,Moderate,No,Not Related,2025-07-16,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1177,Dyspnea,Dyspnea,Mild,No,Not Related,2025-05-16,2025-06-24,Dose Reduced,Recovered/Resolved
+OB1177,Back Pain,Back pain,Mild,No,Not Related,2025-05-14,,Non-drug Therapy,Not Recovered/Not Resolved
+OB1178,Diarrhea,Watery diarrhea,Mild,No,Possibly Related,2025-06-29,,None,Recovering/Resolving
+OB1178,Constipation,Hard stools,Mild,No,Not Related,2025-06-15,,None,Not Recovered/Not Resolved
+OB1180,Headache,Frontal headache,Mild,No,Possibly Related,2025-02-15,2025-02-22,Drug Withdrawn,Recovered/Resolved
+OB1182,Dyspnea,Difficulty breathing,Moderate,Yes,Related,2025-08-07,2025-09-03,Drug Interrupted,Recovered with Sequelae
+OB1182,Myalgia,Myalgia,Mild,No,Not Related,2025-08-04,2025-09-14,Non-drug Therapy,Recovered/Resolved
+OB1182,Pyrexia,Low-grade fever,Mild,No,Related,2025-04-28,2025-06-16,Concomitant Medication Given,Recovered/Resolved
+OB1183,Insomnia,Insomnia,Mild,No,Possibly Related,2025-04-19,2025-06-03,None,Recovered/Resolved
+OB1183,Nausea,Morning nausea,Moderate,No,Not Related,2025-05-20,2025-06-15,None,Recovered/Resolved
+OB1183,Headache,Mild headache,Moderate,Yes,Not Related,2025-03-02,,None,Not Recovered/Not Resolved
+OB1183,Urinary Tract Infection,Dysuria with frequency,Severe,No,Possibly Related,2025-04-19,2025-05-15,Drug Interrupted,Recovered/Resolved
+OB1184,Dyspnea,Breathlessness on exertion,Moderate,No,Possibly Related,2025-01-22,,Concomitant Medication Given,Recovering/Resolving
+OB1184,Rash,Erythematous rash,Severe,No,Not Related,2025-04-01,,Dose Reduced,Recovering/Resolving
+OB1185,Pyrexia,Febrile episode,Severe,No,Related,2025-05-04,,Dose Reduced,Recovering/Resolving
+OB1185,Rash,Erythematous rash,Mild,No,Related,2025-05-28,,Concomitant Medication Given,Recovering/Resolving
+OB1185,Back Pain,Back discomfort,Moderate,No,Not Related,2025-06-15,,Concomitant Medication Given,Not Recovered/Not Resolved
+OB1186,Headache,Tension headache,Mild,No,Not Related,2025-04-09,2025-04-28,Non-drug Therapy,Recovered/Resolved
+OB1189,Abdominal Pain,Epigastric pain,Moderate,No,Not Related,2025-03-29,,None,Recovering/Resolving
+OB1189,Constipation,Constipation,Severe,No,Possibly Related,2025-03-01,2025-04-04,Drug Interrupted,Recovered/Resolved
+OB1189,Dyspnea,Difficulty breathing,Mild,No,Related,2025-04-04,2025-05-04,Drug Withdrawn,Recovered with Sequelae
+OB1193,Diarrhea,Loose stools,Mild,No,Not Related,2025-02-01,2025-02-18,Concomitant Medication Given,Recovered/Resolved
+OB1193,Hepatotoxicity,Fulminant hepatic failure,Severe,No,Related,2025-01-27,2025-03-15,Drug Withdrawn,Fatal
+OB1196,Diarrhea,Frequent loose stools,Mild,No,Related,2025-05-04,,None,Recovering/Resolving
+OB1196,Headache,Mild headache,Moderate,No,Not Related,2025-03-26,,Non-drug Therapy,Recovering/Resolving
+OB1196,Vomiting,Projectile vomiting,Moderate,No,Not Related,2025-04-22,,Concomitant Medication Given,Recovering/Resolving

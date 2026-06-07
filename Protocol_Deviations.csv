@@ -1,0 +1,50 @@
+PD_ID,Subject_ID,PD_Date,Category,Classification,Description,CAPA_Status
+PD-0001,OB1113,2025-05-20,Missed Visit,Minor,Subject missed a scheduled study visit.,Not Required
+PD-0002,OB1115,2025-01-12,Missed Visit,Minor,Subject missed a scheduled study visit.,Closed
+PD-0003,OB1116,2025-05-29,Visit Procedures Not Completed,Minor,Not all required procedures were completed during the visit.,Not Required
+PD-0004,OB1118,2025-04-07,Visit Procedures Not Completed,Minor,Not all required procedures were completed during the visit.,Not Required
+PD-0005,OB1118,2025-03-02,Prohibited Medication Use,Major,Subject received a prohibited medication during the study period.,Open
+PD-0006,OB1119,2025-06-19,Visit Procedures Not Completed,Minor,Not all required procedures were completed during the visit.,Not Required
+PD-0007,OB1120,2025-02-14,Incorrect Dose Administered,Major,Incorrect dose of study drug administered to subject.,Open
+PD-0008,OB1136,2025-05-28,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Open
+PD-0009,OB1136,2025-06-26,Lab Assessment Not Performed,Minor,Required laboratory assessment was not performed at the scheduled visit.,Not Required
+PD-0010,OB1140,2025-06-03,Lab Assessment Not Performed,Minor,Required laboratory assessment was not performed at the scheduled visit.,Not Required
+PD-0011,OB1140,2025-03-02,Lab Assessment Not Performed,Minor,Required laboratory assessment was not performed at the scheduled visit.,Not Required
+PD-0012,OB1142,2025-04-17,Incorrect Dose Administered,Major,Incorrect dose of study drug administered to subject.,In Progress
+PD-0013,OB1143,2025-03-14,Missed Visit,Minor,Subject missed a scheduled study visit.,Open
+PD-0014,OB1143,2025-04-02,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,In Progress
+PD-0015,OB1143,2025-01-27,Visit Window Deviation,Minor,Visit conducted outside the permitted visit window (+/- 3 days).,Closed
+PD-0016,OB1146,2025-05-09,Incorrect Dose Administered,Major,Incorrect dose of study drug administered to subject.,In Progress
+PD-0017,OB1146,2025-02-02,IP Accountability Error,Major,Investigational product accountability discrepancy identified.,Open
+PD-0018,OB1148,2025-04-10,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Open
+PD-0019,OB1153,2025-05-10,Prohibited Medication Use,Major,Subject received a prohibited medication during the study period.,Open
+PD-0020,OB1155,2025-04-20,Informed Consent Deviation,Major,Informed consent process deviation identified.,Open
+PD-0021,OB1155,2025-04-05,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Open
+PD-0022,OB1162,2025-04-27,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Open
+PD-0023,OB1162,2025-04-30,Wrong Study Procedure Performed,Minor,Incorrect study procedure performed during the visit.,Closed
+PD-0024,OB1162,2025-04-20,Missed Visit,Minor,Subject missed a scheduled study visit.,Closed
+PD-0025,OB1162,2025-04-09,Missed Visit,Minor,Subject missed a scheduled study visit.,Not Required
+PD-0026,OB1165,2025-04-23,Visit Window Deviation,Minor,Visit conducted outside the permitted visit window (+/- 3 days).,Not Required
+PD-0027,OB1165,2025-04-20,Informed Consent Deviation,Major,Informed consent process deviation identified.,Open
+PD-0028,OB1166,2025-07-01,Visit Window Deviation,Minor,Visit conducted outside the permitted visit window (+/- 3 days).,Not Required
+PD-0029,OB1166,2025-08-04,Visit Window Deviation,Minor,Visit conducted outside the permitted visit window (+/- 3 days).,Closed
+PD-0030,OB1166,2025-05-10,Informed Consent Deviation,Major,Informed consent process deviation identified.,Closed
+PD-0031,OB1166,2025-06-02,Lab Assessment Not Performed,Minor,Required laboratory assessment was not performed at the scheduled visit.,Closed
+PD-0032,OB1170,2025-07-11,Informed Consent Deviation,Major,Informed consent process deviation identified.,In Progress
+PD-0033,OB1170,2025-05-25,Missed Visit,Minor,Subject missed a scheduled study visit.,Not Required
+PD-0034,OB1170,2025-05-30,Visit Procedures Not Completed,Minor,Not all required procedures were completed during the visit.,Closed
+PD-0035,OB1175,2025-05-24,Wrong Study Procedure Performed,Minor,Incorrect study procedure performed during the visit.,Open
+PD-0036,OB1175,2025-04-27,Visit Procedures Not Completed,Minor,Not all required procedures were completed during the visit.,Closed
+PD-0037,OB1175,2025-04-07,Missed Visit,Minor,Subject missed a scheduled study visit.,Closed
+PD-0038,OB1175,2025-03-25,Visit Window Deviation,Minor,Visit conducted outside the permitted visit window (+/- 3 days).,Not Required
+PD-0039,OB1175,2025-03-07,Informed Consent Deviation,Major,Informed consent process deviation identified.,In Progress
+PD-0040,OB1178,2025-02-04,Visit Procedures Not Completed,Minor,Not all required procedures were completed during the visit.,Not Required
+PD-0041,OB1184,2025-04-13,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Closed
+PD-0042,OB1184,2025-04-01,IP Accountability Error,Major,Investigational product accountability discrepancy identified.,In Progress
+PD-0043,OB1185,2025-05-01,Visit Window Deviation,Minor,Visit conducted outside the permitted visit window (+/- 3 days).,Closed
+PD-0044,OB1185,2025-06-18,IP Accountability Error,Major,Investigational product accountability discrepancy identified.,Open
+PD-0045,OB1186,2025-04-15,Wrong Study Procedure Performed,Minor,Incorrect study procedure performed during the visit.,Not Required
+PD-0046,OB1188,2025-02-01,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Open
+PD-0047,OB1188,2025-04-27,Lab Assessment Not Performed,Minor,Required laboratory assessment was not performed at the scheduled visit.,Not Required
+PD-0048,OB1188,2025-04-28,Eligibility Criteria Violation,Major,Subject does not meet eligibility criteria as specified in the protocol.,Closed
+PD-0049,OB1188,2025-04-04,Missed Visit,Minor,Subject missed a scheduled study visit.,Closed

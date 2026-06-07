@@ -1,0 +1,218 @@
+Subject_ID,MH_Term,MH_Start_Date,MH_End_Date,Ongoing_YN
+OB1111,Pneumonia,2020-02-14,2021-08-11,No
+OB1111,Insomnia,2011-07-04,,Yes
+OB1111,Back Pain,2007-02-16,2010-09-15,No
+OB1111,Chronic Kidney Disease Stage 2,2008-12-20,,Yes
+OB1111,Anemia,2004-06-05,,Yes
+OB1112,Pneumonia,2018-04-07,2020-03-30,No
+OB1112,Obesity,2021-04-26,,Yes
+OB1112,Depression,2021-05-26,,Yes
+OB1112,Chronic Obstructive Pulmonary Disease,2022-09-06,,Yes
+OB1113,Obesity,2007-12-15,,Yes
+OB1113,Fracture - Right Wrist,2022-09-20,2023-07-11,No
+OB1113,Dyslipidemia,2017-12-31,,Yes
+OB1113,Gastroesophageal Reflux Disease,2009-05-25,2010-06-22,No
+OB1113,Chronic Obstructive Pulmonary Disease,2007-04-22,,Yes
+OB1115,Type 2 Diabetes Mellitus,2008-01-29,2008-08-12,No
+OB1115,Anxiety Disorder,2010-02-24,,Yes
+OB1116,Hypertension,2007-09-20,,Yes
+OB1116,Pneumonia,2022-05-19,2023-08-25,No
+OB1116,Cholecystectomy,2009-12-04,2013-01-24,No
+OB1116,Asthma,2012-02-09,,Yes
+OB1117,Hypothyroidism,2020-12-13,,Yes
+OB1117,Asthma,2018-11-14,,Yes
+OB1117,Depression,2017-05-01,,Yes
+OB1117,Gout,2008-10-18,2009-07-15,No
+OB1117,Migraine,2012-11-10,,Yes
+OB1118,Hypertension,2011-07-21,,Yes
+OB1118,Hypothyroidism,2011-07-28,,Yes
+OB1118,Cholecystectomy,2012-05-12,2012-12-17,No
+OB1118,Obesity,2019-01-20,2021-05-15,No
+OB1119,Chronic Kidney Disease Stage 2,2016-10-12,,Yes
+OB1119,Urinary Tract Infection,2021-09-13,2024-02-22,No
+OB1119,Seasonal Allergies,2016-03-22,2019-02-15,No
+OB1119,Appendectomy,2014-05-12,2016-03-28,No
+OB1119,Obesity,2008-07-29,,Yes
+OB1120,Peripheral Neuropathy,2014-07-27,,Yes
+OB1120,Benign Prostatic Hyperplasia,2004-03-29,,Yes
+OB1120,Gout,2009-10-31,,Yes
+OB1120,Anxiety Disorder,2017-08-13,,Yes
+OB1122,Benign Prostatic Hyperplasia,2010-01-31,,Yes
+OB1122,Insomnia,2012-02-25,,Yes
+OB1122,Anxiety Disorder,2020-05-13,,Yes
+OB1122,Atrial Fibrillation,2023-05-02,,Yes
+OB1125,Type 2 Diabetes Mellitus,2015-09-12,,Yes
+OB1125,Iron Deficiency Anemia,2007-05-30,,Yes
+OB1125,Obesity,2004-11-19,,Yes
+OB1126,Seasonal Allergies,2021-03-29,2021-07-02,No
+OB1126,Urinary Tract Infection,2022-06-21,2024-03-25,No
+OB1128,Benign Prostatic Hyperplasia,2012-01-08,,Yes
+OB1128,Insomnia,2014-01-30,2016-08-31,No
+OB1128,Seasonal Allergies,2011-09-04,2014-11-27,No
+OB1128,Vitamin D Deficiency,2018-10-02,,Yes
+OB1129,Chronic Obstructive Pulmonary Disease,2005-05-30,2008-02-29,No
+OB1129,Pneumonia,2019-03-05,2022-03-27,No
+OB1129,Back Pain,2016-08-20,2019-08-26,No
+OB1129,Peptic Ulcer Disease,2024-02-12,2024-07-02,No
+OB1132,Cholecystectomy,2005-05-22,2008-06-16,No
+OB1132,Hypertension,2015-06-13,,Yes
+OB1133,Gout,2006-02-25,,Yes
+OB1133,Atrial Fibrillation,2022-09-23,,Yes
+OB1133,Anxiety Disorder,2006-10-23,,Yes
+OB1133,Asthma,2010-02-19,,Yes
+OB1134,Chronic Kidney Disease Stage 2,2015-09-01,,Yes
+OB1134,Insomnia,2021-04-07,2024-06-24,No
+OB1134,Migraine,2018-01-25,,Yes
+OB1134,Allergic Rhinitis,2006-12-12,,Yes
+OB1134,Anxiety Disorder,2020-11-15,2021-10-18,No
+OB1136,Hyperlipidemia,2011-12-31,,Yes
+OB1136,Eczema,2016-05-14,,Yes
+OB1140,Cholecystectomy,2017-09-27,2018-10-29,No
+OB1140,Hypothyroidism,2020-12-17,,Yes
+OB1140,Peripheral Neuropathy,2008-02-28,,Yes
+OB1142,Anemia,2004-12-05,2005-11-30,No
+OB1142,Iron Deficiency Anemia,2018-05-30,,Yes
+OB1143,Hyperlipidemia,2018-11-05,2020-07-11,No
+OB1143,Vitamin D Deficiency,2006-08-16,,Yes
+OB1143,Type 2 Diabetes Mellitus,2008-06-09,2008-09-29,No
+OB1143,Urinary Tract Infection,2012-10-21,2016-04-15,No
+OB1144,Cholecystectomy,2015-03-14,2016-07-20,No
+OB1144,Appendectomy,2006-11-06,2010-10-26,No
+OB1144,Hyperlipidemia,2023-08-24,,Yes
+OB1144,Pneumonia,2010-05-04,2014-06-07,No
+OB1146,Back Pain,2022-10-18,2024-03-26,No
+OB1146,Rheumatoid Arthritis,2015-11-14,2016-06-23,No
+OB1146,Gout,2011-02-04,,Yes
+OB1147,Insomnia,2018-03-21,,Yes
+OB1147,Asthma,2015-11-06,,Yes
+OB1148,Depression,2010-02-06,,Yes
+OB1148,Hypertension,2016-09-20,,Yes
+OB1148,Hyperlipidemia,2008-05-06,,Yes
+OB1148,Eczema,2007-12-25,,Yes
+OB1148,Vitamin D Deficiency,2005-07-11,,Yes
+OB1149,Peripheral Neuropathy,2019-01-17,,Yes
+OB1149,Insomnia,2016-12-28,2018-07-06,No
+OB1150,Rheumatoid Arthritis,2021-09-12,,Yes
+OB1150,Eczema,2016-01-26,,Yes
+OB1150,Dyslipidemia,2011-04-20,,Yes
+OB1151,Atrial Fibrillation,2008-12-16,,Yes
+OB1151,Appendectomy,2024-02-28,2025-01-16,No
+OB1151,Cholecystectomy,2013-12-14,2014-04-25,No
+OB1152,Back Pain,2005-05-10,2007-02-03,No
+OB1152,Coronary Artery Disease,2017-07-31,,Yes
+OB1152,Atrial Fibrillation,2012-07-19,,Yes
+OB1152,Hypertension,2014-05-08,,Yes
+OB1153,Hypothyroidism,2005-03-03,2007-05-19,No
+OB1153,Type 2 Diabetes Mellitus,2023-10-07,2024-11-03,No
+OB1153,Tonsillectomy,2007-01-24,2007-07-24,No
+OB1153,Chronic Kidney Disease Stage 2,2024-03-24,,Yes
+OB1153,Depression,2016-10-16,,Yes
+OB1154,Hypertension,2020-03-01,,Yes
+OB1154,Peripheral Neuropathy,2012-05-24,,Yes
+OB1155,Atrial Fibrillation,2007-12-01,,Yes
+OB1155,Appendectomy,2022-12-09,2024-07-07,No
+OB1155,Tonsillectomy,2013-05-20,2014-01-14,No
+OB1155,Migraine,2015-10-27,,Yes
+OB1155,Coronary Artery Disease,2016-12-14,,Yes
+OB1156,Rheumatoid Arthritis,2021-03-28,,Yes
+OB1156,Type 2 Diabetes Mellitus,2009-09-03,2011-07-22,No
+OB1156,Atrial Fibrillation,2007-12-11,,Yes
+OB1156,Osteoarthritis,2007-02-15,2009-06-09,No
+OB1156,Pneumonia,2018-03-04,2021-07-26,No
+OB1157,Chronic Obstructive Pulmonary Disease,2024-02-21,,Yes
+OB1157,Allergic Rhinitis,2019-08-21,,Yes
+OB1157,Cholecystectomy,2005-05-29,2005-08-03,No
+OB1157,Gastroesophageal Reflux Disease,2024-01-14,2024-11-02,No
+OB1158,Hypertension,2014-11-30,2018-11-13,No
+OB1158,Peripheral Neuropathy,2014-12-03,,Yes
+OB1159,Urinary Tract Infection,2010-07-25,2014-03-09,No
+OB1159,Back Pain,2020-12-27,2022-07-30,No
+OB1160,Atrial Fibrillation,2022-04-30,2023-10-25,No
+OB1160,Anxiety Disorder,2008-08-20,,Yes
+OB1160,Coronary Artery Disease,2014-05-05,,Yes
+OB1160,Migraine,2007-10-04,2009-04-02,No
+OB1161,Back Pain,2017-10-07,2020-09-16,No
+OB1161,Chronic Obstructive Pulmonary Disease,2019-07-10,,Yes
+OB1161,Benign Prostatic Hyperplasia,2012-05-21,,Yes
+OB1161,Depression,2016-06-13,,Yes
+OB1162,Hypertension,2006-01-04,,Yes
+OB1162,Cholecystectomy,2021-07-09,2024-03-02,No
+OB1162,Vitamin D Deficiency,2020-12-31,,Yes
+OB1162,Hepatic Impairment,2021-10-11,,Yes
+OB1165,Depression,2015-01-24,2018-12-09,No
+OB1165,Atrial Fibrillation,2018-03-07,,Yes
+OB1166,Type 2 Diabetes Mellitus,2013-08-15,,Yes
+OB1166,Obesity,2015-08-28,,Yes
+OB1166,Urinary Tract Infection,2013-01-09,2015-01-21,No
+OB1166,Vitamin D Deficiency,2020-04-06,,Yes
+OB1168,Obesity,2008-10-19,,Yes
+OB1168,Rheumatoid Arthritis,2006-10-13,,Yes
+OB1168,Peripheral Neuropathy,2006-08-07,,Yes
+OB1169,Depression,2021-07-15,,Yes
+OB1169,Asthma,2006-11-20,2007-12-09,No
+OB1169,Peripheral Neuropathy,2006-11-01,,Yes
+OB1169,Hyperlipidemia,2020-07-07,,Yes
+OB1170,Peripheral Neuropathy,2018-06-04,,Yes
+OB1170,Insomnia,2011-09-16,2014-11-04,No
+OB1170,Anxiety Disorder,2011-10-15,,Yes
+OB1170,Hyperlipidemia,2011-12-12,,Yes
+OB1171,Tonsillectomy,2015-02-15,2015-10-04,No
+OB1171,Asthma,2023-07-23,,Yes
+OB1171,Osteoarthritis,2005-10-02,,Yes
+OB1172,Coronary Artery Disease,2023-06-30,,Yes
+OB1172,Gout,2016-01-26,,Yes
+OB1172,Asthma,2007-07-02,,Yes
+OB1172,Benign Prostatic Hyperplasia,2014-08-29,,Yes
+OB1173,Tonsillectomy,2008-11-09,2011-08-15,No
+OB1173,Type 2 Diabetes Mellitus,2021-06-20,2022-11-26,No
+OB1175,Asthma,2021-08-22,,Yes
+OB1175,Chronic Obstructive Pulmonary Disease,2019-03-28,2021-04-23,No
+OB1176,Osteoarthritis,2018-02-05,,Yes
+OB1176,Hypertension,2007-06-26,,Yes
+OB1177,Obesity,2004-10-10,,Yes
+OB1177,Hyperlipidemia,2010-10-27,2013-12-24,No
+OB1178,Benign Prostatic Hyperplasia,2022-02-17,,Yes
+OB1178,Type 2 Diabetes Mellitus,2011-07-31,2014-06-15,No
+OB1178,Hyperlipidemia,2019-09-12,,Yes
+OB1178,Urinary Tract Infection,2019-02-16,2019-05-22,No
+OB1178,Hypothyroidism,2013-04-17,2016-05-19,No
+OB1180,Gout,2007-12-09,,Yes
+OB1180,Atrial Fibrillation,2021-09-27,,Yes
+OB1180,Back Pain,2015-06-10,2017-03-22,No
+OB1182,Hypertension,2018-03-12,2022-04-08,No
+OB1182,Back Pain,2023-11-30,2024-09-28,No
+OB1182,Type 2 Diabetes Mellitus,2014-10-14,,Yes
+OB1182,Atrial Fibrillation,2012-07-31,,Yes
+OB1182,Chronic Kidney Disease Stage 2,2015-08-14,2015-09-25,No
+OB1183,Chronic Obstructive Pulmonary Disease,2013-03-05,,Yes
+OB1183,Coronary Artery Disease,2005-11-13,,Yes
+OB1183,Peptic Ulcer Disease,2022-05-08,2024-09-01,No
+OB1184,Chronic Obstructive Pulmonary Disease,2020-02-01,,Yes
+OB1184,Obesity,2013-06-18,,Yes
+OB1184,Eczema,2013-10-02,,Yes
+OB1185,Chronic Kidney Disease Stage 2,2011-12-30,2016-01-26,No
+OB1185,Anemia,2010-11-23,,Yes
+OB1186,Hypothyroidism,2025-04-02,2025-07-01,No
+OB1186,Gastroesophageal Reflux Disease,2008-02-25,2011-11-22,No
+OB1186,Peptic Ulcer Disease,2006-04-08,2008-10-01,No
+OB1188,Appendectomy,2005-07-16,2009-06-30,No
+OB1188,Coronary Artery Disease,2019-05-18,2022-01-22,No
+OB1188,Anxiety Disorder,2018-06-02,,Yes
+OB1188,Depression,2008-03-23,,Yes
+OB1188,Peptic Ulcer Disease,2006-06-09,2009-12-18,No
+OB1189,Seasonal Allergies,2020-08-29,2023-06-28,No
+OB1189,Peptic Ulcer Disease,2023-08-10,2024-08-14,No
+OB1189,Hyperlipidemia,2022-11-13,,Yes
+OB1189,Chronic Obstructive Pulmonary Disease,2020-05-17,,Yes
+OB1189,Insomnia,2007-02-25,,Yes
+OB1193,Asthma,2023-10-30,,Yes
+OB1193,Chronic Kidney Disease Stage 2,2023-04-03,2023-07-21,No
+OB1193,Atrial Fibrillation,2018-01-04,2019-04-02,No
+OB1196,Rheumatoid Arthritis,2009-10-11,,Yes
+OB1196,Hypertension,2012-08-29,2014-08-20,No
+OB1196,Back Pain,2016-09-25,2016-11-29,No
+OB1199,Seasonal Allergies,2014-09-20,2016-09-15,No
+OB1199,Anxiety Disorder,2018-03-29,,Yes
+OB1199,Hyperlipidemia,2013-04-27,,Yes
+OB1199,Obesity,2008-05-01,,Yes
+OB1199,Vitamin D Deficiency,2009-03-14,,Yes
